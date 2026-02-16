@@ -19,9 +19,9 @@ Usage:
 
 Or install globally:
     uv tool install --from brainiac-cli.py brainiac-cli
-    specify init <project-name>
-    specify init .
-    specify init --here
+    brainiac init <project-name>
+    brainiac init .
+    brainiac init --here
 """
 
 import os
