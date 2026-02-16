@@ -42,7 +42,7 @@ Spec-Driven Development **flips the script** on traditional software development
 
 ## ⚡ Get Started
 
-### 1. Install Specify CLI
+### 1. Install BrainIaC CLI
 
 Choose your preferred installation method:
 
@@ -51,20 +51,20 @@ Choose your preferred installation method:
 Install once and use everywhere:
 
 ```bash
-uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
+uv tool install brainiac-cli --from git+https://github.com/cderue/spec-kit.git
 ```
 
 Then use the tool directly:
 
 ```bash
-specify init <PROJECT_NAME>
-specify check
+brainiac init <PROJECT_NAME>
+brainiac check
 ```
 
 To upgrade specify run:
 
 ```bash
-uv tool install specify-cli --force --from git+https://github.com/github/spec-kit.git
+uv tool install brainiac-cli --force --from git+https://github.com/cderue/spec-kit.git
 ```
 
 #### Option 2: One-time Usage
@@ -72,7 +72,7 @@ uv tool install specify-cli --force --from git+https://github.com/github/spec-ki
 Run directly without installing:
 
 ```bash
-uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
+uvx --from git+https://github.com/cderue/spec-kit.git brainiac init <PROJECT_NAME>
 ```
 
 **Benefits of persistent installation:**
